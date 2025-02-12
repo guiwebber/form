@@ -1,0 +1,123 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #e0f1e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerContact {
+  width: 30%;
+  height: 60%;
+  background-color: #FFF;
+  border-radius: 15px;
+  padding: 25px 0 0 50px;
+}
+
+input[type="text"] {
+  height: 35px;
+}
+
+input {
+  border: 1px solid #0c7d69;
+  border-radius: 5px;
+  margin: 5px 0 20px 0;
+}
+
+.divRadio, textarea {
+  margin: 0 0 20px 0;
+}
+
+textarea {
+  resize: none;
+  height: 90px;
+  border: 1px solid #0c7d69;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+label {
+  color: #1f1f1f;
+}
+
+.labelDefault {
+  font-size: 0.9rem;
+}
+#contacted {
+  margin: 10px 0;
+}
+
+.form {
+  width: 100%;
+}
+.containerContact h2 {
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+  gap: 2%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.w-90 {
+  width: 90%;
+}
+.w-45 {
+  width: 44%;
+}
+
+.divRadioBtn {
+  border: 1px solid #0c7d69;
+  height: 35px;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.divRadioBtn input {
+  margin: 0 15px;
+}
+
+.divTerms {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+.divTerms label {
+  margin: 0 10px;
+}
+
+.btn {
+  background-color: #0c7d69;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  color: #FFF;
+  width: 90%;
+  cursor: pointer;
+}
+
+.errorText {
+  color: red;
+  font-size: 0.7rem;
+  margin-top: -10px;
+  margin-bottom: 10px;  
+}
+
+@media (max-width: 768px) {
+
+  .containerContact {
+    width: 100%;
+  }
+  
+}
