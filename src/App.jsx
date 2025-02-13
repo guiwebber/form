@@ -33,7 +33,7 @@ function App() {
       <div className="containerContact">
         <h2>Contact Us</h2>
         <form className="form" onSubmit={handleSubmit}>
-          <div className="flex h-85">
+          <div className="flex">
             <div className="col w-45">
               <label className="labelDefault">First Name</label>
               <input
@@ -55,7 +55,7 @@ function App() {
               {errors.last && <p className="errorText">{errors.last}</p>}
             </div>
           </div>
-          <div className="col h-85">
+          <div className="col">
             <label className="labelDefault">Email Address</label>
             <input
               type="text"
@@ -65,7 +65,7 @@ function App() {
             />
             {errors.mail && <p className="errorText">{errors.mail}</p>}
           </div>
-          <div className="h-85">
+          <div className="">
             <label className="labelDefault">Query Type</label>
             <div className="divRadio flex ">
               <div className="divRadioBtn w-45">
@@ -87,7 +87,7 @@ function App() {
             </div>
             {errors.radio && <p className="errorText">{errors.radio}</p>}
           </div>
-          <div className="col">
+          <div className="col divTextArea">
             <label className="labelDefault">Message</label>
             <textarea
               value={message}

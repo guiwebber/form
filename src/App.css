@@ -9,7 +9,6 @@
 
 .containerContact {
   width: 30%;
-  height: 70%;
   background-color: #FFF;
   border-radius: 15px;
   padding: 25px 0 0 50px;
@@ -22,19 +21,24 @@ input[type="text"] {
 input {
   border: 1px solid #0c7d69;
   border-radius: 5px;
+  padding: 10px;
 }
 
 
-
+.divTextArea {
+  margin: 10px 0;
+  
+}
 textarea {
   resize: none;
   height: 90px;
   border: 1px solid #0c7d69;
   border-radius: 5px;
-  margin: 5px 0;
+  padding: 10px;
 }
 
 label {
+  margin: 5px 0;
   color: #1f1f1f;
 }
 
@@ -49,7 +53,7 @@ label {
   width: 100%;
 }
 .containerContact h2 {
-  margin-bottom: 10px;
+  margin: 5px 0 20px 0;
 }
 
 .flex {
@@ -73,6 +77,10 @@ label {
 
 .h-85 {
   height: 85px;
+}
+
+.h-100 {
+  height: 100px;
 }
 
 .divRadioBtn {
@@ -99,6 +107,7 @@ label {
   font-size: 0.8rem;
 }
 
+
 .btn {
   background-color: #0c7d69;
   border: none;
@@ -107,7 +116,7 @@ label {
   color: #FFF;
   width: 90%;
   cursor: pointer;
-  margin-top: 25px;
+  margin: 25px 0;
 }
 
 .errorText {
