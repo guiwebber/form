@@ -9,7 +9,7 @@
 
 .containerContact {
   width: 30%;
-  height: 60%;
+  height: 70%;
   background-color: #FFF;
   border-radius: 15px;
   padding: 25px 0 0 50px;
@@ -22,12 +22,9 @@ input[type="text"] {
 input {
   border: 1px solid #0c7d69;
   border-radius: 5px;
-  margin: 5px 0 20px 0;
 }
 
-.divRadio, textarea {
-  margin: 0 0 20px 0;
-}
+
 
 textarea {
   resize: none;
@@ -74,6 +71,10 @@ label {
   width: 44%;
 }
 
+.h-85 {
+  height: 85px;
+}
+
 .divRadioBtn {
   border: 1px solid #0c7d69;
   height: 35px;
@@ -88,13 +89,14 @@ label {
 }
 
 .divTerms {
-  margin: 15px 0;
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
 
 .divTerms label {
   margin: 0 10px;
+  font-size: 0.8rem;
 }
 
 .btn {
@@ -105,15 +107,22 @@ label {
   color: #FFF;
   width: 90%;
   cursor: pointer;
+  margin-top: 25px;
 }
 
 .errorText {
   color: red;
   font-size: 0.7rem;
-  margin-top: -10px;
-  margin-bottom: 10px;  
+  margin: 5px 0 10px 0;
 }
 
+.mbottom {
+  margin-bottom: 20px;
+}
+
+.error {
+  border: 1px solid red;
+}
 @media (max-width: 768px) {
 
   .containerContact {
@@ -121,3 +130,4 @@ label {
   }
   
 }
+
